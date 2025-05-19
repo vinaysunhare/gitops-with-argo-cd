@@ -1,22 +1,23 @@
-<!-- File: index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Manufacturing Co.</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Toy Manufacturing Co. | Indore</title>
 </head>
 <body>
   <header class="site-header">
     <nav class="navbar">
-      <a href="#" class="logo">Manufacturing Co.</a>
+      <a href="#" class="logo">Toy Manufacturing Co.</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#process">Our Process</a></li>
+        <li><a href="#careers">Careers</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button class="nav-toggle" aria-label="toggle navigation">
+      <button class="nav-toggle" aria-label="Toggle Navigation">
         <span class="hamburger"></span>
       </button>
     </nav>
@@ -24,48 +25,70 @@
 
   <main>
     <section class="hero">
-      <h1>Precision Industrial Parts</h1>
-      <p>Delivering top-grade manufacturing solutions worldwide.</p>
-      <a href="#services" class="btn">Our Services</a>
+      <h1>Innovative Toys, Made with Care</h1>
+      <p>We design and manufacture eco-friendly, durable toys that spark imagination.</p>
+      <a href="#products" class="btn">View Our Products</a>
     </section>
 
     <section id="about" class="about-section">
       <h2>About Us</h2>
-      <p>We leverage cutting-edge CNC, robotics, and quality control to produce components that drive industry forward.</p>
+      <p>Located in Indore, Toy Manufacturing Co. has been crafting high-quality children's toys for over a decade. Our team blends modern technology with creativity to deliver safe and sustainable play experiences.</p>
     </section>
 
-    <section id="services" class="services-grid">
+    <section id="products" class="services-grid">
+      <h2>Our Toy Collection</h2>
       <article class="service-card">
-        <h3>CNC Machining</h3>
-        <p>High-precision parts with tight tolerances.</p>
+        <h3>Educational Toys</h3>
+        <p>STEM-based learning kits and puzzles for growing minds.</p>
       </article>
       <article class="service-card">
-        <h3>Robotic Welding</h3>
-        <p>Consistent weld quality at scale.</p>
+        <h3>Wooden Toys</h3>
+        <p>Handcrafted toys made from eco-friendly materials.</p>
       </article>
       <article class="service-card">
-        <h3>Quality Inspection</h3>
-        <p>Advanced metrology and defect analysis.</p>
+        <h3>Robotic Toys</h3>
+        <p>Interactive toys powered by beginner robotics and AI.</p>
       </article>
+    </section>
+
+    <section id="process" class="about-section">
+      <h2>Our Manufacturing Process</h2>
+      <p>From concept to completion, we follow a strict design and testing pipeline:</p>
+      <ul>
+        <li>Concept design and safety analysis</li>
+        <li>Eco-material sourcing</li>
+        <li>Prototyping and 3D modeling</li>
+        <li>Quality assurance and child-safety testing</li>
+        <li>Mass production with precision CNC and injection molding</li>
+      </ul>
+    </section>
+
+    <section id="careers" class="about-section">
+      <h2>Join Our Team</h2>
+      <p>We are always looking for passionate designers, engineers, and marketers who want to build a better world through play. <a href="mailto:careers@toymfgco.com">Send your resume</a> today!</p>
     </section>
 
     <section id="contact" class="contact-section">
       <h2>Contact Us</h2>
       <form action="#" class="contact-form">
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Your message"></textarea>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
         <button type="submit" class="btn">Send Message</button>
       </form>
+      <div class="address-box">
+        <h3>Our Office</h3>
+        <p>Plot No. 45, Industrial Area,<br> Pithampur Road, Indore, MP 452001</p>
+        <p>Email: contact@toymfgco.com<br>Phone: +91 99999 12345</p>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2025 Manufacturing Co. All rights reserved.</p>
+    <p>&copy; 2025 Toy Manufacturing Co., Indore. All rights reserved.</p>
   </footer>
 
   <script>
-    // Mobile nav toggle
     const toggle = document.querySelector('.nav-toggle');
     const links = document.querySelector('.nav-links');
     toggle.addEventListener('click', () => {

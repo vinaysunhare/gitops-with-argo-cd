@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: vinaysunhare/manufacturing-site:1.0
+          image: vinaysunhare/manufacturing-site:v2
           ports:
             - containerPort: 80
           readinessProbe:
