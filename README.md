@@ -1,3 +1,12 @@
+![Screenshot from 2025-05-19 08-32-01](https://github.com/user-attachments/assets/a5cf4203-0a40-4860-87a8-cd782f5ec427)
+![Screenshot from 2025-05-19 08-48-53](https://github.com/user-attachments/assets/9c6ca530-0e6a-483d-867b-45c5c5210b36)
+![Screenshot from 2025-05-19 09-42-51](https://github.com/user-attachments/assets/d02bff37-d157-441f-aa0b-52083d91fa2d)
+![Screenshot from 2025-05-19 09-43-41](https://github.com/user-attachments/assets/2bc5fe46-45bb-4dcb-bcbf-14d78999407d)
+![Screenshot from 2025-05-19 11-21-23](https://github.com/user-attachments/assets/338926aa-fa00-4662-9101-42ca28fb898c)
+![Screenshot from 2025-05-19 11-21-39](https://github.com/user-attachments/assets/7a18280e-c35a-4c53-9211-4ed4ea4d5acb)
+
+
+
 # Manufacturing Co. Website with GitOps and Argo CD
 
 ## Description
